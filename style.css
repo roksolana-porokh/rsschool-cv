@@ -1,0 +1,53 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+header {
+    text-align: center;
+    background-color: #eb943dbc ;
+    padding: 7px 0;
+}
+
+main {
+    padding: 0;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.left {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    color: rgb(2, 0, 5);
+    font-family: Verdana, Helvetica, Arial;
+  } 
+
+li {
+    list-style: inside;
+    display: list-item;
+    text-align:left;
+    list-style: none;
+    padding: 2px;
+    margin: 1px;
+    font-size: 1.1rem;
+    color: rgb(1, 0, 4);
+    font-family: Verdana, Helvetica, Arial;
+}
+ 
+.contacts a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+  }
