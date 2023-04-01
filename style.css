@@ -1,0 +1,143 @@
+
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+header {
+    text-align: center;
+    background-color: #eb943dbc ;
+    padding: 7px 0;
+}
+
+main {
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    color: rgb(2, 0, 5);
+    font-family: Verdana, Helvetica, Arial;
+} 
+
+li {
+    list-style: inside;
+    display: list-item;
+    text-align:left;
+    list-style: none;
+    padding: 2px;
+    margin: 1px;
+    font-size: 1.1rem;
+    color: rgb(1, 0, 4);
+    font-family: Verdana, Helvetica, Arial;
+}
+ 
+.contacts a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+}
+
+.right {
+    padding: 5px;
+    margin: 4px;
+
+} 
+
+.right ul {
+    padding-left: 20px;
+    list-style: decimal;
+    list-style: none;
+    padding: 2px;
+    margin: 1px;
+    text-align: center;
+}
+
+.right li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    list-style: inside;
+    display: list-item;
+    text-align:left;
+}
+
+.right p {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    text-align:left;
+}
+
+.left ul {
+    padding: 2px;
+    margin: 1px;
+}
+
+.left img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height:auto;
+}
+
+.Languages li {
+    list-style: inside;
+    display: list-item;
+    text-align:left;
+}
+
+.skills li {
+    list-style: inside;
+    display: list-item;
+    text-align:left;   
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: var(--dark-gray-color);
+}
+  
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+  
+footer .github-icon {
+    margin-right: 100px;
+}
+  
+my-github {
+    display: flex;
+    align-items: center;
+}
+
+.code-example p {
+    margin-left: 20px;
+    font-size: 28px;
+    color: #020000;
+    background-color: var(--dark-gray-color)
+    
+}
